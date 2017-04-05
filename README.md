@@ -30,7 +30,7 @@ var id = 200
 console.log(id)
 ```
 
-![](img\reassign-var.png)
+![](img/reassign-var.png)
 
 This will not throw any errors in the browser [Chrome dev tools pictured] so there is the possibility that you could use the same variable name twice in your code and get some unexpected results.
 
@@ -56,7 +56,7 @@ person.name = 'Scort'
 
 ```
 
-![](img\const-reassignment.png)
+![](img/const-reassignment.png)
 
 ### Scoping
 
