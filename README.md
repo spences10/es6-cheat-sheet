@@ -11,6 +11,8 @@ I have put this together as a collection of the things I have learned for JavaSc
     - [`const`](#const)
     - [Scoping](#scoping)
     - [`const` vs. `let`](#const-vs-let)
+  - [Arrow functions](#arrow-functions)
+    - [Arrow function examples](#arrow-function-examples)
 
 <!-- /TOC -->
 
@@ -92,3 +94,41 @@ I will be attempting to use the following [from Mathias' post] in my code
 
 Simples :sunglasses:
 
+## Arrow functions
+
+Arrow functions are not named as in they do not contain the word `function` in them they have implicit replies, also they do not rebind the value of `this` 
+
+Quick example of an arrow function `=>`
+
+```
+(parameter1, parameter2) => { return expression }
+```
+
+If you have a single parameter then there is no need for the parenthesis at the beginning, so:
+
+```
+oneLoneParam => { return expression }
+```
+
+And as arrow functions give implicit returns then there is no need for the `return` statement, so you can remove the curly brackets  :
+
+```
+oneLoneParam => expression
+```
+
+Or with more than one parameter:
+
+```
+(parameter1, parameter2) => expression
+```
+
+Arrow functions also take no arguments, so: 
+
+```
+() => {statements}
+() => expression
+```
+
+Parenthesis are optional when there are one parameter although if there is a function with no parameters then you will require parenthesis.
+
+### Arrow function examples 
