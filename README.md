@@ -13,6 +13,8 @@ I have put this together as a collection of the things I have learned for JavaSc
     - [`const` vs. `let`](#const-vs-let)
   - [Arrow functions](#arrow-functions)
     - [Arrow function examples](#arrow-function-examples)
+  - [Real world uses](#real-world-uses)
+    - [Reverse a string](#reverse-a-string)
 
 <!-- /TOC -->
 
@@ -132,3 +134,11 @@ Arrow functions also take no arguments, so:
 Parenthesis are optional when there are one parameter although if there is a function with no parameters then you will require parenthesis.
 
 ### Arrow function examples 
+
+
+## Real world uses
+
+### Reverse a string
+
+`const reverse = [..."scott"].reverse().join('')`
+
